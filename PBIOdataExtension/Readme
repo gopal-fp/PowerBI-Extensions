@@ -1,0 +1,13 @@
+PBIOdataExtension
+
+A custom Powerbi Extension for showcasing OData feed
+How to use.?
+1.Clone or download project in your machine and open with Microsoft visual studio
+2.You need to install Mashup Engine extension for compiling
+3.Build the solution and .mez will be created and you can find the same in bin/Debug/PBIOdataExtension.mez
+4.Create a Environment variable called "PQ_ExtensionDirectory" and set value as "C:\Program Files\Microsoft Power BI Desktop\bin\extensions",create a directory
+"extensions" in Power BI desktop installed location
+5.Place above generated .mez file in extensions directory
+6.Restart or open Power BI desktop and click "GetData",type "PBI" and you can see "PBIOdataExtension.Feed" ,select and click "Connect"
+7.A dialog will prompts and feed  a OData url and click Ok.(For ex:"http://services.odata.org/TripPinRESTierService/")
+8.Now you can see set of tables from the odata endpoint
